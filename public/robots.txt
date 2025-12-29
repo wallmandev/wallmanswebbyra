@@ -1,0 +1,23 @@
+# robots.txt för wallmanswebbyra.se
+# Hjälper små företag synas bättre på Google
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://wallmanswebbyra.se/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Google-specifika regler
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
